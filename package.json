@@ -1,0 +1,29 @@
+{
+    "displayName": "Tic Tac Toe Intro to TypeScript Interactive CLI and 2D Arrays.",
+    "name": "tic_tac_toe_intro",
+    "version": "1.0.0",
+    "description": "Pre-setup project for learning multi-dimensional lists.",
+    "main": "index.ts",
+    "scripts": {
+        "build": "npx tsc",
+        "clean": "rm -rf dist",
+        "start": "npx tsc && node dist/index.js"
+    },
+    "keywords": [
+        "TicTacToe",
+        "Lists",
+        "Arrays",
+        "Typescript"
+    ],
+    "author": "Alex Klein Nathan Hoersch",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.6.3",
+        "@types/readline-sync": "^1.4.6",
+        "jsdoc": "^4.0.2",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    }
+}
